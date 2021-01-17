@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab4_ESA" />
+        <module name="lab2_ESA-dcc1ae5697c5fbac81f45694c352bb74ea6f8f93" />
+        <module name="lab2_ESA_spring" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lab2_ESA-dcc1ae5697c5fbac81f45694c352bb74ea6f8f93" options="-parameters" />
+      <module name="lab2_ESA_spring" options="-parameters" />
+      <module name="lab4_ESA" options="-parameters" />
+    </option>
+  </component>
+</project>
